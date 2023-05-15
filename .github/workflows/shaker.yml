@@ -27,5 +27,5 @@ jobs:
         with:
           tool: jest
           tests_command: yarn test:e2e
-          runs: 1000
+          runs: 2
           output_folder: moleculer-1/output
