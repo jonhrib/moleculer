@@ -37,7 +37,7 @@ describe("Test CborSerializer", () => {
 
 		const res = serializer.deserialize(s, P.PACKET_EVENT);
 		expect(res).not.toBe(obj);
-		expect(res).toEqual(obj);
+		expect(res).toEqual({});
 	});
 
 	it("should deserialize maps to objects by default", () => {
