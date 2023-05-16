@@ -26,6 +26,6 @@ jobs:
         uses: sorattorafa/shaker-js@main
         with:
           tool: jest
-          tests_command: yarn test:e2e
+          tests_command: npm run test:unit
           runs: 2
           output_folder: moleculer-1/output
