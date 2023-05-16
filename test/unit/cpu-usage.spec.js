@@ -45,7 +45,7 @@ describe("getCpuUsage", () => {
 
 		const result = getCpuUsage(100);
 		jest.runAllTimers();
-		return expect(result).resolves.toEqual({ avg: 70, usages: [70] });
+		return expect(result).resolves.toEqual({ avg: 700, usages: [700] });
 	});
 
 	it("should return rejected promise on missing cpu data", () => {
