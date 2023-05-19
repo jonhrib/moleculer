@@ -28,4 +28,4 @@ jobs:
           tool: jest
           tests_command: yarn test:unit
           runs: 2
-          output_folder: moleculer-1/output
+          #output_folder: moleculer-1/output
